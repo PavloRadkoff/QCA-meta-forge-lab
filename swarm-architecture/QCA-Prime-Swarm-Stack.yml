@@ -1,0 +1,84 @@
+version: '3.8'
+
+# QCA Genesis AI Studio: Swarm Orchestration Blueprint
+# Deploy command: docker stack deploy -c QCA-Prime-Swarm-Stack.yml qca_forge
+
+services:
+  # 1. THE GATEWAY: Routes external traffic and protects the internal network
+  api-gateway:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager # Gateway must run on the Prime Node
+    networks:
+      - qca_public
+      - qca_internal
+
+  # 2. THE META-DIRECTOR: The core API that receives B2B tasks and spawns/routes bots
+  demiurge-orchestrator:
+    image: qca-forge/demiurge-core:latest
+    environment:
+      - LLM_ENGINE=gemini-ultra
+      - LOG_LEVEL=debug
+    secrets:
+      - qca_ai_api_key
+    deploy:
+      replicas: 2
+      update_config:
+        parallelism: 1
+        delay: 10s
+    networks:
+      - qca_internal
+
+  # 3. THE WORKER BOTS: The actual personalized agents (Hunters, Alchemists, Forgers)
+  # This is the horizontal scaling magic. Need more processing power? Just scale this service.
+  bot-workers-pool:
+    image: qca-forge/synthetic-soul-worker:latest
+    deploy:
+      mode: replicated
+      replicas: 5 # Start with 5 agents, Swarm can auto-scale this to 100+ across Ubuntu nodes
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M
+      placement:
+        constraints:
+          - node.role == worker # Offload heavy AI-parsing to Worker Nodes
+    networks:
+      - qca_internal
+    depends_on:
+      - demiurge-orchestrator
+      - cognitive-memory-db
+
+  # 4. THE COGNITIVE MEMORY: Where agents store their context, codexes, and state
+  cognitive-memory-db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: qca_forge
+      POSTGRES_DB: agent_memory_matrix
+    volumes:
+      - qca_pg_data:/var/lib/postgresql/data
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+    networks:
+      - qca_internal
+
+networks:
+  qca_public:
+    driver: overlay
+  qca_internal:
+    driver: overlay
+    internal: true # Strict security: Bots cannot be accessed directly from the outside
+
+volumes:
+  qca_pg_data:
+
+secrets:
+  qca_ai_api_key:
+    external: true
