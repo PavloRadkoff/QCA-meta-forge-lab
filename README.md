@@ -31,6 +31,12 @@ Pure, framework-agnostic PHP scripts. The raw power of traditional backend engin
 High-availability infrastructure blueprints. 
 * *Example:* `QCA-Prime-Swarm-Stack.yml` - Docker Swarm configurations detailing how the API Gateway, the Meta-Director, and the Worker Bots communicate securely across multiple Ubuntu nodes.
 
+### 🛡️ 5. `/infrastructure-core/` (Security & DevOps)
+AI is useless if the servers crash or budgets burn. This is my control layer.
+* `qca-aegis-recovery.sh` - Military-grade, encrypted PostgreSQL backup protocol to AWS S3.
+* `qca-bifrost-deploy.yml` - Zero-downtime CI/CD pipeline for updating the Docker Swarm.
+* `qca-sauron-cost-guard.py` - AI budget interceptor. Monitors LLM token usage in real-time and prevents runaway API costs.
+
 ## 🤝 B2B Partnership & Consulting
 
 **To HRs and Recruiters:**

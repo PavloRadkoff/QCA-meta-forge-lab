@@ -1,0 +1,34 @@
+name: QCA Bifrost Deploy (Swarm Rolling Update)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'python-ai-workers/**'
+      - 'swarm-architecture/**'
+
+jobs:
+  deploy-to-swarm:
+    name: Deploy to Prime Node
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Execute Swarm Rolling Update via SSH
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.PRIME_NODE_IP }}
+          username: qca_admin
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Initiating Bifrost Deployment..."
+            cd /opt/qca-genesis/
+            git pull origin main
+            
+            # Zero-Downtime Deployment
+            # Update the stack without dropping active bot sessions
+            docker stack deploy -c swarm-architecture/QCA-Prime-Swarm-Stack.yml qca_forge --with-registry-auth
+            
+            echo "Swarm successfully updated. AI Workers are syncing."
