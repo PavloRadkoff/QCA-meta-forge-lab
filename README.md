@@ -1,139 +1,81 @@
-<div align="right">
-  🌍 <b>English</b> | <a href="#-qca-genesis-ai-studio-кузня-персонажів--мета-генеративна-лабораторія">🇺🇦 Українська</a>
-</div>
-
-# 🔨 QCA Genesis AI Studio: The Enterprise AI Ecosystem & Persona Forge
-> *"Code is no longer manually typed. It is orchestrated."*
-
-## 👁️ The Vision & Manifesto
-Welcome to the Forge. 
-
-I am a **Quantum Core Architect (QCA) / AI Infrastructure Engineer**. With 25 years of hardcore infrastructure, system administration, and backend engineering experience, I have witnessed the evolution of IT. Today, we are at a paradigm shift.
-
-Modern business is paralyzed by two extremes: decaying legacy code (COBOL, old monoliths) that drains millions, and "blind" AI API scripts that hallucinate and destroy business logic. This repository is not a collection of standard web-apps. It is a **Meta-Generative Laboratory**. It is a demonstration of how modern enterprise infrastructure must be built: by combining rock-solid legacy foundations (Linux, Docker Swarm) with a highly controlled, multi-tiered AI architecture.
+[🌍 English](#-the-vision--manifesto) | [🇺🇦 Українська](#-візія-та-маніфест)
 
 ---
 
-## 🌌 The QCA Genesis Ecosystem (4-Tier Architecture)
-QCA Genesis Studio is a 4-Tier Hybrid AI Corporation designed to architect, extract, generate, and breathe life into enterprise systems.
+🔨 QCA Genesis AI Studio: Enterprise AI Ecosystem & Persona Forge
+"Code is no longer manually typed. It is orchestrated."
 
-### 🧠 1. Core AI Studio (The Brain)
-* **Entities:** Custom Gem-Bots, Elite Analysts, System Architects.
-* **Process:** Using massive context windows and "Human-in-the-loop" oversight, this laboratory analyzes complex business needs, builds deep "Psycho-Archetypes," and designs flawless UML architectures before a single line of code is generated.
+👁️ The Vision & Manifesto
+Welcome to the Forge.
+I am a Quantum Core Architect (QCA) / AI Infrastructure Engineer.
+With 25 years of hardcore infrastructure, system administration, and backend engineering experience, I have witnessed the evolution of IT. Today, we are at a paradigm shift.
 
-### 🏗️ 2. Legacy Refactoring Lab (The Surgery)
-* **Entities:** Hunters, Parsers, and The Inquisitor (Adversarial AI).
-* **Process:** We do not rewrite legacy code by hand. We safely reverse-engineer dead code (COBOL, Perl, Legacy PHP) by extracting pure business logic. **The Inquisitor** cross-validates the old and new logic to guarantee 100% mathematical accuracy and zero hallucinations.
+Modern business is paralyzed by two extremes: decaying legacy code (COBOL, FoxPro, old monoliths) that drains millions, and "blind" AI API scripts that hallucinate and destroy business logic. This repository is a Meta-Generative Laboratory.
+It is an absolute demonstration of how modern enterprise infrastructure must be built: by combining rock-solid legacy foundations (Linux, Docker Swarm) with a highly controlled, multi-tiered AI architecture.
 
-### ⚙️ 3. AI Dev Factory (The Assembly Line)
-* **Entities:** API-Workers, Automated Coders, CI/CD Integrators.
-* **Process:** Once logic is approved, our API-driven pipeline autonomously generates thousands of lines of boilerplate code (Python/FastAPI or PHP), database migrations, and Docker configurations.
+🌌 The QCA Genesis Ecosystem (4-Tier Architecture)
+QCA Genesis Studio is a Hybrid AI Corporation designed to architect, extract, generate, and breathe life into enterprise systems.
 
-### 🧬 4. Demiurge Bot Forge (The Entity Factory)
-* **Entities:** Highly personalized multi-agent bots powered by cross-platform AI APIs.
-* **Process:** We forge complete "Digital Souls." These autonomous agents are constrained by deep Codexes and hybrid backends to execute complex B2B tasks 24/7, replacing entire corporate departments.
+🧠 1. Core AI Studio (The Brain)
+Entities: Custom Gem-Bots, Elite Analysts, System Architects.
+Process: Using massive context windows and "Human-in-the-loop" oversight, this laboratory analyzes complex business needs, builds deep "Psycho-Archetypes," and designs flawless UML architectures before a single line of code is generated.
 
----
+🏗️ 2. Legacy Refactoring Lab (The Surgery & Archaeology)
+Entities: Hunters, Parsers, The Carbon-Dater, and The Inquisitor (Adversarial AI).
+Process: We do not rewrite legacy code by hand. We safely reverse-engineer dead code by extracting pure business logic from the deepest strata of digital history:
 
-## 🗄️ The Arsenal (Repository Structure)
+    COBOL (The Ancient Leviathan): Extracting banking logic from mainframes into flexible JSON schemas.
+
+    Visual FoxPro (The Database Relic): Deconstructing tangled DBF-oriented systems into clean APIs.
+
+    Legacy C# / .NET: Refactoring aging monoliths into high-performance .NET 8/9 architectures with modern resilience patterns.
+
+The Inquisitor cross-validates the old and new logic to guarantee 100% mathematical accuracy and zero hallucinations.
+
+⚙️ 3. AI Dev Factory (The Assembly Line)
+Entities: API-Workers, Automated Coders, CI/CD Integrators.
+Process: Once logic is approved, our API-driven pipeline autonomously generates thousands of lines of boilerplate code (Python/FastAPI, C#, or PHP), database migrations, and Docker configurations.
+
+🧬 4. Demiurge Bot Forge (The Entity Factory)
+Entities: Highly personalized multi-agent bots powered by cross-platform AI APIs.
+Process: We forge complete "Digital Souls." These autonomous entities are constrained by deep Codexes and hybrid backends to execute complex B2B tasks 24/7, replacing entire corporate departments.
+
+🗄️ The Arsenal (Repository Structure)
 Here you will find blueprints and "Skeletons of Souls". Proprietary business logic is under NDA, but the engineering philosophy is open.
 
-* **`/synthetic-souls-codex/` (The Persona Forge):** System prompts and behavioral codexes. How to bind an LLM to a strict task without hallucinations. (*Ex: `Synthetic-Soul-Skeleton-v1.md`*)
-* **`/python-ai-workers/` (The Gem-Bot Pantheon):** Asynchronous Python microservices. The autonomous "workers" that live in the swarm. (*Ex: `vizier_hunter_lite.py`*)
-* **`/core-parsers-lite/` (Heavy Backend Foundation):** Pure, framework-agnostic PHP scripts. Raw power for gigabyte-scale memory-safe data parsing. (*Ex: `QCA-Heavy-Data-Processor.php`*)
-* **`/swarm-architecture/` (The Engine):** High-availability infrastructure blueprints (Docker Swarm configurations). (*Ex: `QCA-Prime-Swarm-Stack.yml`*)
-* **`/infrastructure-core/` (Security & DevOps):** My control layer. AES-encrypted backups, Zero-downtime CI/CD, and AI budget interceptors to prevent runaway API costs. (*Ex: `qca-sauron-cost-guard.py`*)
+    /legacy-necromancy-cobol/ (The Mainframe Vault): AI-driven vectorization of Copybooks and JCL scripts. (Ex: qca-cobol-parser-v1.py)
 
----
+    /foxpro-reconstruction-core/ (The Relic Breaker): Automated extraction of hidden business logic from .prg and .scx files. (Ex: vfp-logic-extractor.py)
 
-## ♻️ Deep Dive: Automated Legacy Refactoring (Transmutation)
-Legacy code is no longer rewritten manually. It is transmuted via my Multi-Agent RAG Pipeline, eliminating context overflow and hallucinations:
+    /csharp-modern-forge/ (The High-Performance Core): High-throughput .NET 8 microservices and resilience patterns. (Ex: qca-resilience-patterns.cs)
 
-1. **Phase 1: Vectorization & AST Parsing.** The project is parsed into an Abstract Syntax Tree (AST). All functions are loaded into a Graph Database, generating a "mental map" of the logic.
-2. **Phase 2: Profiling (AI Architect).** The orchestrator identifies dead code and splits the monolith into isolated micro-domains.
-3. **Phase 3: Contextual Transmutation (AI Workers).** Isolated bots receive micro-context. Prompt-isolators dictate strict refactoring rules (e.g., mandatory `declare(strict_types=1)`) while preserving original I/O logic.
-4. **Phase 4: Auto-Testing & Assembly.** The AI Tester writes Unit tests to verify the updated logic. Output is packaged into isolated Docker containers.
+    /synthetic-souls-codex/ (The Persona Forge): System prompts and behavioral codexes. How to bind an LLM to a strict task without hallucinations. (Ex: Synthetic-Soul-Skeleton-v1.md)
 
----
+    /python-ai-workers/ (The Gem-Bot Pantheon): Asynchronous Python microservices. The autonomous "workers" of the cluster. (Ex: vizier_hunter_lite.py)
 
-## 🤝 B2B Partnership & Consulting
+    /core-parsers-lite/ (Heavy Backend Foundation): Pure, framework-agnostic PHP scripts. Raw power for gigabyte-scale memory-safe data parsing. (Ex: QCA-Heavy-Data-Processor.php)
 
-**To HRs and Recruiters:**
-If you are looking for a "junior syntax-typist" to manually write CRUD controllers for 8 hours a day, or if your interview involves whiteboard algorithms — **please close this page**. We are not a match.
+    /swarm-architecture/ (The Engine): High-availability infrastructure blueprints (Docker Swarm). (Ex: QCA-Prime-Swarm-Stack.yml)
 
-**To CTOs, Tech Leads, and Founders:**
-If your backend is struggling, your legacy code drains your budget, and you realize your competitors are already leveraging AI automation — welcome. If you need a **Tech Partner / B2B Architect** who can deploy a self-sustaining AI infrastructure and modernize your monoliths:
+    /infrastructure-core/ (Security & DevOps): AES-encrypted backups, zero-downtime CI/CD, and AI budget interceptors (token control). (Ex: qca-sauron-cost-guard.py)
 
-**Let's talk architecture.**
-*Architected by QCA. 2026. The future is automated.*
+♻️ Deep Dive: Automated Legacy Refactoring (Transmutation)
+Legacy code is no longer rewritten manually. It is transmuted via a multi-tiered orchestration pipeline:
 
-<br><br>
+    Phase 0: Deep Archaeology. Specialized AI agents analyze undocumented languages (COBOL, FoxPro) to create an "Intent Map" before syntax translation begins.
 
-<div align="right">
-  <a href="#-qca-genesis-ai-studio-the-enterprise-ai-ecosystem--persona-forge">🌍 English</a> | 🇺🇦 <b>Українська</b>
-</div>
+    Phase 1: Vectorization & AST Parsing. The old monolith is parsed into an Abstract Syntax Tree (AST). Functions are loaded into a Graph Database, generating a "mental map" of the project.
 
-# 🔨 QCA Genesis AI Studio: Ентерпрайз ШІ-Екосистема та Кузня Персонажів
-> *"Код більше не пишеться вручну. Він оркеструється."*
+    Phase 2: Profiling (AI Architect). The orchestrator identifies dead code and splits the monolith into isolated micro-domains.
 
-## 👁️ Візія та Маніфест
-Вітаю у Кузні.
+    Phase 3: Contextual Transmutation (AI Workers). Isolated bots receive micro-context. Prompt-isolators dictate strict refactoring rules while strictly preserving I/O logic.
 
-Я — **Quantum Core Architect (QCA) / AI Infrastructure Engineer**. За моїми плечима 25 років хардкорного досвіду в побудові інфраструктури, системному адмініструванні та бекенд-інженерії. Сьогодні ми перебуваємо в центрі зміни парадигми.
+    Phase 4: Auto-Testing. The AI Tester writes Unit tests to verify the new logic. The clean output is packaged into Docker containers.
 
-Сучасний бізнес паралізований двома крайнощами: гниючим легасі-кодом (COBOL, старі моноліти), який витягує мільйони, та "сліпими" скриптами на базі AI API, які галюцинують і руйнують бізнес-логіку. Цей репозиторій — це **Мета-Генеративна Лабораторія**. Це абсолютна демонстрація того, як має будуватися сучасна інфраструктура: через поєднання залізобетонного класичного фундаменту (Linux, Docker Swarm) із багаторівневою архітектурою ШІ.
+🤝 B2B Partnership & Consulting
+To CTOs, Tech Leads, and Founders:
+If your backend is struggling, your legacy code drains your budget, and you realize your competitors are already leveraging AI automation — welcome.
+If your business relies on COBOL or FoxPro, and you fear that changing one variable will crash the system — we do not fear legacy. We transmute it.
+If you need a Tech Partner / B2B Architect who can deploy a self-sustaining AI infrastructure and modernize your monoliths: Let's talk architecture.
 
----
-
-## 🌌 Екосистема QCA Genesis (4-рівнева Архітектура)
-QCA Genesis Studio — це Гібридна ШІ-Корпорація, створена для проєктування, екстракції, генерації та оживлення корпоративних систем.
-
-### 🧠 1. ШІ-Лабораторія (Мозковий Центр)
-* **Сутності:** Кастомні Gem-боти Експерти, Аналітики, Архітектори.
-* **Процес:** Використовуючи гігантські контекстні вікна та контроль Архітектора (Human-in-the-loop), лабораторія аналізує складні бізнес-задачі, будує глибокі "Скелетони Душі" та проєктує бездоганні UML-архітектури до написання першого рядка коду.
-
-### 🏗️ 2. Фабрика Рефакторингу Легасі (Кібер-Хірургія)
-* **Сутності:** Мисливці, Парсери та Інквізитор (Adversarial AI).
-* **Процес:** Ми не переписуємо легасі руками. Ми безпечно реверс-інжиніримо мертвий код (COBOL, Perl, старий PHP), витягуючи чисту бізнес-логіку. **Інквізитор** проводить жорсткий аудит, порівнюючи стару і нову логіку для гарантії 100% точності та відсутності галюцинацій.
-
-### ⚙️ 3. Фабрика ШІ-Розробки (Складальний Конвеєр)
-* **Сутності:** API-воркери, Автоматизовані Кодери, CI/CD Інтегратори.
-* **Процес:** Коли логіка затверджена, наш API-пайплайн автономно генерує тисячі рядків рутинного коду (Python/FastAPI або PHP), міграції баз даних та Docker-конфігурації.
-
-### 🧬 4. Фабрика Сутностей (Рівень Деміурга)
-* **Сутності:** Високоперсоналізовані мультиагентні боти, підключені до кросплатформних AI API.
-* **Процес:** Ми куємо "Цифрові Душі". Це автономні сутності, чия поведінка жорстко обмежена Кодексами та гібридним бекендом. Вони виконують складні B2B-задачі 24/7, замінюючи цілі корпоративні відділи.
-
----
-
-## 🗄️ Арсенал (Структура Репозиторію)
-Тут ви знайдете креслення та "Скелетони Душі". Комерційна логіка прихована під NDA, але інженерна філософія відкрита.
-
-* **`/synthetic-souls-codex/` (Кузня Персонажів):** Системні промпти та кодекси. Як прив'язати LLM до задачі без галюцинацій. (*Приклад: `Synthetic-Soul-Skeleton-v1.md`*)
-* **`/python-ai-workers/` (Пантеон ШІ-воркерів):** Асинхронні Python-мікросервіси. Автономні "працівники" кластеру. (*Приклад: `vizier_hunter_lite.py`*)
-* **`/core-parsers-lite/` (Важкий Бекенд-Фундамент):** Чисті PHP-скрипти. Сира міць для безпечного парсингу гігабайтів даних. (*Приклад: `QCA-Heavy-Data-Processor.php`*)
-* **`/swarm-architecture/` (Двигун Оркестрації):** Креслення інфраструктури високої доступності (Docker Swarm). (*Приклад: `QCA-Prime-Swarm-Stack.yml`*)
-* **`/infrastructure-core/` (Безпека та DevOps):** Зашифровані бекапи, CI/CD з нульовим часом простою, та ШІ-перехоплювач бюджету (контроль токенів). (*Приклад: `qca-sauron-cost-guard.py`*)
-
----
-
-## ♻️ Глибокий розбір: AI-Рефакторинг Легасі-Коду
-Легасі-код більше не переписується вручну. Він трансмутується через багаторівневий пайплайн оркестрації:
-
-1. **Фаза 1: Векторизація та AST-парсинг.** Старий моноліт розбирається на абстрактне синтаксичне дерево (AST). Функції завантажуються в Графову БД, створюючи "ментальну карту" проєкту.
-2. **Фаза 2: Профілювання (AI Architect).** Оркестратор виявляє мертвий код та розбиває моноліт на ізольовані мікро-домени.
-3. **Фаза 3: Контекстна Трансмутація (AI Workers).** Ізольовані боти отримують мікро-контекст. Промпт-ізолятори диктують жорсткі правила рефакторингу зі строгим збереженням I/O логіки.
-4. **Фаза 4: Авто-Тестування.** AI-Тестувальник пише Unit-тести для перевірки нової логіки. Чистий результат пакується в Docker-контейнери.
-
----
-
-## 🤝 B2B Партнерство та Консалтинг
-
-**До HR-ів та Рекрутерів:**
-Якщо ви шукаєте "молодшого синтаксичного друкаря", який буде писати CRUD-контролери по 8 годин на день, або якщо ваша співбесіда складається з алгоритмів на маркерній дошці — **будь ласка, закрийте цю сторінку**. Ми не підходимо один одному.
-
-**До CTO, Техлідів та Власників бізнесу:**
-Якщо ваш бекенд не витримує навантажень, легасі-код витягує ваш бюджет, і ви розумієте, що конкуренти вже використовують AI-автоматизацію — ласкаво просимо. Якщо вам потрібен **Технічний Партнер / B2B Архітектор**, який зможе розгорнути автономну AI-інфраструктуру та модернізувати ваші моноліти:
-
-**Давайте поговоримо про архітектуру.**
-*Architected by QCA. 2026. The future is automated.*
+Architected by QCA. 2026. The future is automated.
