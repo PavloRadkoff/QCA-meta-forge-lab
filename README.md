@@ -1,4 +1,7 @@
-🌍 English | 🇺🇦 Українська
+[🌍 English](#english-version) | [🇺🇦 Українська](#ukrainian-version)
+
+<a id="english-version"></a>
+
 🔨 QCA Genesis AI Studio: Enterprise AI Ecosystem & Persona Forge
 
 "Code is no longer manually typed. It is orchestrated."
@@ -107,8 +110,8 @@ If your business relies on COBOL or FoxPro, and you fear that changing one varia
 If you need a Tech Partner / B2B Architect who can deploy a self-sustaining AI infrastructure and modernize your monoliths: Let's talk architecture.
 
 Architected by QCA. 2026. The future is automated.
-
-
+---
+<a id="ukrainian-version"></a>
 
 🔨 QCA Genesis AI Studio: Ентерпрайз ШІ-Екосистема та Кузня Персонажів
 
