@@ -5,38 +5,32 @@
 ![Docker](https://img.shields.io/badge/Deploy-Docker_Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Python](https://img.shields.io/badge/AI_Orchestration-Python_|_Pydantic-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-> **"Code is no longer manually typed. It is orchestrated."**
+    "Code is no longer manually typed. It is orchestrated."
 
-**[EN]** Welcome to the AI-Driven Forge Lab. This repository contains the physical implementation of the **Quantitative Code Analysis (QCA)** methodology. This is not a collection of prompt-scripts; this is a deterministic, multi-agent AI factory built for enterprise legacy modernization, AST-parsing, and structured output generation.
+[EN] Welcome to the AI-Driven Forge Lab. This repository contains the physical implementation of the Quantitative Code Analysis (QCA) methodology. This is not a collection of prompt-scripts; this is a deterministic, multi-agent AI factory built for enterprise legacy modernization, AST-parsing, and structured output generation.
 
-**[UA]** Ласкаво просимо на Завод. Цей репозиторій — фізична реалізація методології QCA. Тут працюють детерміновані ШІ-агенти, які розбирають застарілий код на AST-дерева та генерують строгі Enterprise-рішення.
+[UA] Ласкаво просимо на Завод. Цей репозиторій — фізична реалізація методології QCA. Тут працюють детерміновані ШІ-агенти, які розбирають застарілий код на AST-дерева та генерують строгі Enterprise-рішення.
+📋 QCA Production Manifest
+🏷️ Параметр	⚙️ Специфікація
+AI Studio	QCA Genesis AI Studio “Persona Forge”
+AI Factory	QCA Pipeline MetaGenerative “AI-Driven Forge Lab”
+Location	Ukraine, Mykolaiv Region (Domanivka) 🇺🇦
+Architecture Standard	Deterministic AI Sequencing & Sovereign Code Vault
+👥 Workforce & AI Orchestration (The Pantheon)
 
----
+В основі роботи Фабрики лежить принцип розподілу когнітивної відповідальності. Людина формує намір (Intent), а спеціалізовані ШІ-персони виконують структурну роботу під суворим контролем Pydantic/JSON схем.
 
-## 📋 QCA Production Manifest
+    🧠 Architect (Vision & Orchestration): Pavlo Radko
 
-| 🏷️ Parameter | ⚙️ Specification |
-| :--- | :--- |
-| **AI Studio** | QCA Genesis AI Studio “Persona Forge” |
-| **AI Factory** | QCA Pipeline MetaGenerative “AI-Driven Forge Lab” |
-| **Location** | Ukraine, Mykolaiv Region (Domanivka) 🇺🇦 |
-| **Architecture Standard** | Deterministic AI Sequencing & Sovereign Code Vault |
+    🔮 AI Concept Architect: "Shaman-Alchemist" (Трансмутаційний ШІ-бот — екстракція глибокої логіки легасі-систем).
 
----
+    🧱 AI Senior Quantitative Developer: "Adamant Monolith" (Бот-розробник — детермінована генерація C#/.NET 8 та документації).
 
-## 👥 Workforce & AI Orchestration (The Pantheon)
-The core principle of this factory is **Separation of Concerns** at the cognitive level. Human generates the intent; specialized AI Personas execute the structural work under strict Pydantic/JSON constraints.
+💻 Infrastructure & Environment Target
 
-* 🧠 **Architect (Vision & Orchestration):** Pavlo Radko
-* 🔮 **AI Concept Architect:** `"Shaman-Alchemist"` *(Transmutational Shamanic AI Bot — specialized in deep legacy logic extraction).*
-* 🧱 **AI Senior Quantitative Developer:** `"Adamant Monolith"` *(Code & Documentation Bot — specialized in deterministic C#/.NET 8 generation and strict typing).*
+Фабрика спроєктована для розгортання на "голому залізі" (Bare-metal) з високим рівнем ізоляції та стійкості.
+YAML
 
----
-
-## 💻 Infrastructure & Environment Target
-The Forge is designed for bare-metal resilience and cloud-agnostic deployment. 
-
-```yaml
 Node_Specification:
   Cluster_Target: "QCA.Forge"
   Server_Node: "QCA-PRIME"
@@ -44,30 +38,34 @@ Node_Specification:
   Operating_System: "Ubuntu 24.04.3 LTS"
   Containerization: "Docker Swarm Ready"
   Execution_Mode: "Strict Deterministic (Zero Hallucination Tolerance)"
-  
+
 🗄️ The Engineering Arsenal (Code Blueprints)
 
-This repository contains the working scripts, schemas, and pipelines of the QCA Factory:
+Цей репозиторій містить робочі скрипти, схеми та пайплайни QCA Factory:
 
-    Structured Outputs (Pydantic): Python architectures enforcing AI to respond in strict JSON/Data models.
+    Structured Outputs (Pydantic): Архітектури на Python, що змушують ШІ відповідати суворими моделями даних.
 
-    AST-Extractors: Tools for parsing legacy code (FoxPro, COBOL, old PHP) into abstract syntax trees.
+    AST-Extractors: Інструменти для парсингу легасі-коду (FoxPro, COBOL, PHP) у дерева абстрактного синтаксису.
 
-    Resilience Patterns: C# blueprints for Polly v8, Circuit Breakers, and Zero-Downtime architecture.
+    Resilience Patterns: Креслення на C# для Polly v8, Circuit Breakers та архітектур з нульовим часом простою.
 
-    Swarm Configurations: docker-compose blueprints for deploying the AI agents in isolated, secure networks.
+    Swarm Configurations: Blueprints для розгортання ШІ-агентів в ізольованих мережах Docker.
 
 🏛️ Theoretical Foundation
 
-This repository is the Physical Factory. It is powered by the architectural methodology documented in the QCA Manifestos.
-👉 Read the 44 Core Architectural Whitepapers Here
+Цей репозиторій є Фізичною Фабрикою. Він базується на архітектурній методології, описаній у 44-х маніфестах QCA.
+👉 Читати 44 Архітектурні Маніфести тут
 ⚖️ Legal Perimeter & B2B Licensing
 
 © 2024-2026 Pavlo Radko. All Rights Reserved.
-The code, AI Persona architectures, and orchestration pipelines in this repository are proprietary intellectual property.
+Код, архітектура ШІ-персон та пайплайни оркестрації в цьому репозиторії є пропрієтарною інтелектуальною власністю.
 
-    Academic/Research use is permitted with strict attribution.
+    Academic/Research use дозволено за умови суворого зазначення авторства.
 
-    Commercial use (enterprise modernization, corporate consulting, integration into commercial products) is STRICTLY PROHIBITED without a formal B2B license agreement.
+    Commercial use (корпоративна модернізація, консалтинг, впровадження у комерційні продукти) СУВОРО ЗАБОРОНЕНО без офіційної B2B ліцензії.
 
-For PoC (Proof of Concept) and commercial licensing: [Contact via LinkedIn/Telegram]
+📡 Secure Comm-Link (Enterprise PoC & Licensing)
+🌐 Канал зв'язку	🔗 Посилання / Адреса
+Telegram	@PavloRadkoff
+Email	radkoff76@gmail.com
+Facebook	PavloRadkoff
